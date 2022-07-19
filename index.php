@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <title>D&P Communications</title>
+  <link rel="icon" type="image/x-icon" href="/Imagini/LogoMic.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +14,6 @@
 </head>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <?php include "navbar&footer/navbar.php"; ?>
 
@@ -401,6 +402,8 @@
 
   </div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  
   <?php include "navbar&footer/footer.php"; ?>
 
   <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
