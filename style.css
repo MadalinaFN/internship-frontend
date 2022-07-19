@@ -682,7 +682,7 @@ img.img3-style {
 .contactform {
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(Imagini/background.png);
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(Imagini/backgroundCF.png);
   background-size: cover;
   background-position: center;
 }
