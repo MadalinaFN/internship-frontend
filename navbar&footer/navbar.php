@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <img class="img-fluid navimg logo" src="Imagini/Logo.png">
+      <a href="index.php" target="_blank"><img class="img-fluid navimg logo" src="Imagini/Logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -99,7 +99,7 @@
           <a class="nav-link text-dark1" href="#">Success Stories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark1" href="index.php" target="_blank">Get Started</a>
+          <a class="nav-link text-dark1" href="#">Get Started</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-dark1 font-weight-bold" href="#">Call Us 800-311-7340</a>

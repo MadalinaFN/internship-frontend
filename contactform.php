@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -69,14 +70,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-  <title>D&P Communications</title>
-  <link rel="icon" type="image/x-icon" href="/Imagini/LogoMic.png">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/aos.css">
+  <?php include "head&script/head.php"; ?>
 </head>
 
 <body>
@@ -117,14 +111,7 @@ if (isset($_POST['submit'])) {
 
   <?php include "navbar&footer/footer.php"; ?>
 
-  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/cc5b02c2a0.js"></script>
-  <script src="assets/js/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <?php include "head&script/script.php"; ?>
   <script>
     var words = ['CONTACT US FORM'],
       part,
