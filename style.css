@@ -797,8 +797,9 @@ input {
   animation-duration: 3s;
 }
 
-/* Set vendor-specific keyframes for animation on load 
-   Position and opacity are animated */
+.word {
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
 
 @-webkit-keyframes fadein {
   0% { opacity: 0; margin-left: -250px; }
