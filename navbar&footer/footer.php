@@ -2,25 +2,22 @@
 <html lang="en">
 
 <body>
-    
-<footer>
+
+  <footer>
     <div class="footer">
       <div class="container">
         <div class="row marginbutton1">
           <div class="col-md text-center background">
-            <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png"
-                alt="call"> Call
+            <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
               800-311-7340</a>
           </div>
           <div class="col-md text-center background">
-            <a href="#" class="text-white textdec"><img class="img-padding"
-                src="Imagini/Get Started.png" alt="get-started">
+            <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Get Started.png" alt="get-started">
               Get
               Started</a>
           </div>
           <div class="col-md text-center background">
-            <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Live Chat.png"
-                alt="live-chat">Live
+            <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Live Chat.png" alt="live-chat">Live
               Chat</a>
           </div>
         </div>
@@ -29,7 +26,7 @@
       <div class="container2 p-5 pb-0">
         <div class="row textalgncenter">
           <div class="col-md margright text-center">
-            <img class="padlogo1" src="Imagini/Img1Footer.png" alt="call">
+            <a href="index.php" target="_blank"><img class="padlogo1" src="Imagini/Img1Footer.png" alt="call"></a>
             <p><img class="padlogo2" src="Imagini/Img2Footer.png" alt="call"></p>
             <p>
               <img class="padlogo3" src="Imagini/Img3Footer.png" alt="call">
