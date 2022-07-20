@@ -11,14 +11,14 @@
 
   <div class="struct1">
     <div class="container">
-      <h3 class="font line-space" data-aos="fade-down">WELCOME TO D & P COMMUNICATIONS</h3>
+      <h3 class="font line-space" data-aos-once="true" data-aos="fade-down">WELCOME TO D & P COMMUNICATIONS</h3>
       <div class="style">
         <div class="row">
           <div class="col-xl">
-            <h1 class="subt line-sp margin" data-aos="fade-right">Connecting You to What Matters</h1>
+            <h1 class="subt line-sp margin" data-aos-once="true" data-aos="fade-right">Connecting You to What Matters</h1>
           </div>
           <div class="col-xl">
-            <p class="text lines text-struct1 margin" data-aos="fade-left">D & P Communications serves residents and
+            <p class="text lines text-struct1 margin" data-aos-once="true" data-aos="fade-left">D & P Communications serves residents and
               businesses with a full suite of communication & technology services, including high-speed Internet,
               video entertainment, phone systems, and network management.
             </p>
@@ -45,9 +45,9 @@
 
   <div class="struct2 paddingbutton">
     <div class="container pad">
-      <h3 class="title col-md-7" data-aos="fade-down">FIBER OPTICS</h3>
+      <h3 class="title col-md-7" data-aos-once="true" data-aos="fade-down">FIBER OPTICS</h3>
       <h1 class="subtit col-md-7">Enjoy the Most Advanced Technology Available with Fiber Optics</h1>
-      <p class="text lines text-struct2 col-md-6" data-aos="flip-right">We are continuously expanding and maintaining thousands of miles of
+      <p class="text lines text-struct2 col-md-6" data-aos-once="true" data-aos="flip-right">We are continuously expanding and maintaining thousands of miles of
         fiber optic cabeling woven together by a grid of dozens of points of presence and data centers housing smart
         carrier grade switches and routers, connecting the communities we serve to each other and to people and
         places around the globe. We are connected to the Internet backbone at multiple peering points in Chicago,
@@ -58,7 +58,7 @@
   </div>
 
   <div class="struct3">
-    <div class="container" data-aos="zoom-in">
+    <div class="container" data-aos-once="true" data-aos="zoom-in">
       <div class="style3">
         <img class="img3-style" src="Imagini/ImgCasa.png">
         <div class="padding">
@@ -78,16 +78,18 @@
 
   <div class="struct4">
     <div class="container text-center">
-      <h3 class="title style4" data-aos="fade-down">LOCAL BUSINESSES SERVED</h3>
+      <h3 class="title style4" data-aos-once="true" data-aos="fade-down">LOCAL BUSINESSES SERVED</h3>
 
       <h1 class="subtit textdark">Serving Over 1,300 Businesses</h1>
 
-      <p class="lines textdark text text-struct4" data-aos="flip-right">We are proud to serve over 1,300 commercial entities in
+      <p class="lines textdark text text-struct4" data-aos-once="true" data-aos="flip-right">We are proud to serve over 1,300 commercial entities in
         the local area, including small-to-large businesses, hospital systems, K-12 school districts, higher
         education,
         non-profits, manufacturing and municipalities including:
       </p>
-      <div class="swiper mySwiper1 grayscale">
+    </div>
+    <div class="container-fluid">
+      <div id="mySwiper1" class="swiper grayscale">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="Imagini/Promedica Logo.png"></div>
           <div class="swiper-slide"><img src="Imagini/Promedica Logo.png"></div>
@@ -96,24 +98,25 @@
           <div class="swiper-slide"><img src="Imagini/Promedica Logo.png"></div>
           <div class="swiper-slide"><img src="Imagini/Promedica Logo.png"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div id="swbn1" class="swiper-button-next"></div>
+        <div id="swbp1" class="swiper-button-prev"></div>
       </div>
     </div>
   </div>
 
   <div class="struct5">
     <div class="container">
-      <h3 class="title style-title5" data-aos="fade-down">COMMUNITY PARTNERS</h3>
+      <h3 class="title style-title5" data-aos-once="true" data-aos="fade-down">COMMUNITY PARTNERS</h3>
 
       <h1 class="subtit textdark">Conecting to Our Community</h1>
 
-      <p class="lines textdark text text-struct" data-aos="flip-right">Our community partners are a key element of our brand. D & P
+      <p class="lines textdark text text-struct" data-aos-once="true" data-aos="flip-right">Our community partners are a key element of our brand. D & P
         Communications is honored to work with over 200
         local organizations and associations, including:
       </p>
-
-      <div class="swiper mySwiper">
+    </div>
+    <div class="container-fluid">
+      <div id="mySwiper" class="swiper">
         <div class="swiper-wrapper align-items-center">
           <div class="swiper-slide"><img class="img-swiper1" src="Imagini/Goodwill_Industries_Logo.png"></div>
           <div class="swiper-slide"><img class="img-swiper2" src="Imagini/lenaweelogo.png"></div>
@@ -130,31 +133,31 @@
           <div class="swiper-slide"><img class="img-swiper6" src="Imagini/Habitat_for_humanity.png"></div>
           <div class="swiper-slide"><img class="img-swiper7" src="Imagini/ACLClogo.png"></div>
         </div>
-        <div class="swiper-button-next grayscale"></div>
-        <div class="swiper-button-prev grayscale"></div>
+        <div id="swbn2" class="swiper-button-next grayscale"></div>
+        <div id="swbn2" class="swiper-button-prev grayscale"></div>
       </div>
     </div>
   </div>
 
   <div class="struct6">
     <div class="container text-center">
-      <h3 class="title style-title5" data-aos="fade-down">FIBER OPTICS</h3>
+      <h3 class="title style-title5" data-aos-once="true" data-aos="fade-down">FIBER OPTICS</h3>
 
       <h1 class="subtit subt-width">Bringing You a Faster, More Reliable Network with Fiber Optics</h1>
 
-      <p class="lines text text-struct" data-aos="flip-right">You deserve the highest levels of availability and performance - and we're
+      <p class="lines text text-struct" data-aos-once="true" data-aos="flip-right">You deserve the highest levels of availability and performance - and we're
         here
         to
         exceed your expectations. Welcome to D & P Communications.
       </p>
       <div class="row">
-        <div class="col-md-6 pos-image" data-aos="zoom-in">
+        <div class="col-md-6 pos-image" data-aos-once="true" data-aos="zoom-in">
           <div class="img-pad">
             <img src="Imagini/Img6.1.png">
             <button class="button1 btn font-weight-bold" type="button">For Homes</button>
           </div>
         </div>
-        <div class="col-md-6 pos-image" data-aos="zoom-in">
+        <div class="col-md-6 pos-image" data-aos-once="true" data-aos="zoom-in">
           <div class="img-pad">
             <img src="Imagini/Img6.2.png">
             <button class="button1 btn font-weight-bold" type="button">For Businesses</button>
@@ -167,11 +170,11 @@
   <div class="struct7">
     <div class="container">
       <div class="text-center">
-        <h3 class="title style-title7" data-aos="fade-down">LOCALLY INVESTED</h3>
+        <h3 class="title style-title7" data-aos-once="true" data-aos="fade-down">LOCALLY INVESTED</h3>
 
         <h1 class="subtit subt-width">We're In Your Neighborhood</h1>
 
-        <p class="lines text text-struct" data-aos="flip-right">You deserve the highest levels of availability and performance - and we're
+        <p class="lines text text-struct" data-aos-once="true" data-aos="flip-right">You deserve the highest levels of availability and performance - and we're
           here
           to exceed your expectations. Welcome to D & P Communications.
         </p>
@@ -215,9 +218,9 @@
 
   <div class="struct8">
     <div class="container text-center">
-      <h3 class="title style-title7" data-aos="fade-down">SUCCESS STORIES</h3>
+      <h3 class="title style-title7" data-aos-once="true" data-aos="fade-down">SUCCESS STORIES</h3>
       <h1 class="subtit subt-width1">Find Out What People Are Saying About D & P Communications</h1>
-      <p class="lines text text-struct textdark" data-aos="flip-right">Our mission is to serve you. It's all about our community. Find out
+      <p class="lines text text-struct textdark" data-aos-once="true" data-aos="flip-right">Our mission is to serve you. It's all about our community. Find out
         what
         others are saying about their experiences with D & P Communications.
       </p>
@@ -225,7 +228,7 @@
     </div>
     <div class="container">
       <div class="card-columns">
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark margtop line-height">"I Can Use Multiple Devices without
@@ -242,7 +245,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Great Reliable Service"
@@ -254,7 +257,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Wish I'd Switched to D &
@@ -271,7 +274,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Wish I'd Switched to D &
@@ -289,7 +292,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Wish I'd Switched to D &
@@ -306,7 +309,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Great Reliable Service"
@@ -318,7 +321,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark cardwidth margtop line-height">"Great Reliable Service"
@@ -330,7 +333,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark margtop line-height">"I Can Use Multiple Devices without
@@ -347,7 +350,7 @@
             </p>
           </div>
         </div>
-        <div class="card" data-aos="fade-up">
+        <div class="card" data-aos-once="true" data-aos="fade-up">
           <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title subtit text-center textdark margtop line-height">"I Can Use Multiple Devices without
@@ -368,7 +371,7 @@
     </div>
 
     <div class="struct9">
-      <div class="container" data-aos="zoom-in">
+      <div class="container" data-aos-once="true" data-aos="zoom-in">
         <div class="style3">
           <img class="img3-style" src="Imagini/Background9.png">
           <div class="padding">
@@ -391,7 +394,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -421,6 +423,52 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+  </script>
+  <script>
+    var words = ['CONTACT US FORM'],
+      part,
+      i = 0,
+      offset = 0,
+      len = words.length,
+      forwards = true,
+      skip_count = 0,
+      skip_delay = 0,
+      speed = 100;
+    var wordflick = function() {
+      setInterval(function() {
+        if (forwards) {
+          if (offset >= words[i].length) {
+            ++skip_count;
+            if (skip_count == skip_delay) {
+              forwards = false;
+              skip_count = 0;
+            }
+          }
+        } else {
+          if (offset == 0) {
+            forwards = true;
+            i++;
+            offset = 0;
+            if (i >= len) {
+              i = 0;
+            }
+          }
+        }
+        part = words[i].substr(0, offset);
+        if (skip_count == 0) {
+          if (forwards) {
+            offset++;
+          } else {
+            offset--;
+          }
+        }
+        $('.word').text(part);
+      }, speed);
+    };
+
+    $(document).ready(function() {
+      wordflick();
+    });
   </script>
 </body>
 

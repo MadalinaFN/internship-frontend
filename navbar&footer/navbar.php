@@ -55,7 +55,7 @@
               <i class="fa-solid fa-angle-down"></i>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="contactform.php" target="_blank">Form</a></li>
+              <li><a class="dropdown-item" href="#">Form</a></li>
               <li><a class="dropdown-item" href="#">Link 2</a></li>
               <li><a class="dropdown-item" href="#">Link 3</a></li>
             </ul>
