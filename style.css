@@ -502,11 +502,6 @@ div#mySwiper {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
-.imaginheight {
-  bottom: 0px !important;
-}
-
 .padding7 {
   padding-left: 3px !important;
   padding-right: 3px !important;
@@ -874,33 +869,47 @@ input {
   content: counter(count);
   animation: counter 5s linear infinite alternate;
   counter-reset: count 0;
-  transition-duration: 1s;
+  font-weight: bold;
 }
 
 @keyframes counter {
   0% {
-    counter-increment: count 0;
+    counter-increment: count 10;
   }
   10% {
-    counter-increment: count 1;
+    counter-increment: count 9;
+    animation-duration: 1s;
   }
   20% {
-    counter-increment: count 2;
+    counter-increment: count 8;
+    animation-duration: 1s;
   }
   30% {
-    counter-increment: count 3;
+    counter-increment: count 7;
+    animation-duration: 1s;
   }
   40% {
-    counter-increment: count 4;
+    counter-increment: count 6;
+    animation-duration: 1s;
   }
   50% {
     counter-increment: count 5;
+    animation-duration: 1s;
   }
   60% {
-    counter-increment: count 6;
+    counter-increment: count 4;
   }
   70% {
-    counter-increment: count 7;
+    counter-increment: count 3;
+  }
+  80% {
+    counter-increment: count 2;
+  }
+  90% {
+    counter-increment: count 1;
+  }
+  100% {
+    counter-increment: count 0;
   }
 }
 

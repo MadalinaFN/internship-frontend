@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
     $result = $mail->send();
     $output = '<div class="alert alert-success text-center">
     <h5>Thank you for contacting us!</h5>
-    <h5 class="counting"">Please, wait a few seconds...</h5>
+    <h5 class="counting"">Please, wait a few seconds... </h5>
     </div>';
   } catch (Exception $e) {
     $output = '<div class="alert alert-danger">
@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
       window.location = "http://internship-frontend/#footer";
       setTimeout(function() {
         window.location.href = 'http://internship-frontend';
-      }, 7000);
+      }, 5100);
     </script>
 <?php
   }
@@ -264,7 +264,7 @@ if (isset($_POST['submit'])) {
       <div class="row mx-auto justify-content-center">
         <div class="text-image7">
           <div class="col-md padding7">
-            <img class="imaginheight" src="Imagini/Adrian.png">
+            <img src="Imagini/Adrian.png">
             <div class="centered">ADRIAN</div>
           </div>
         </div>
