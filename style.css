@@ -342,17 +342,21 @@ img.img3-style {
   margin-right: auto;
 }
 
-#swbn1, #swbn2 {
+#swbn1,
+#swbn2 {
   right: 1px !important;
 }
 
-#swbp1, #swbp1 {
+#swbp1,
+#swbp1 {
   left: 1px !important;
 }
+
 div#mySwiper1,
 div#mySwiper {
   padding: 0 40px;
 }
+
 .swiper {
   width: 80%;
   padding-top: 100px !important;
@@ -484,13 +488,6 @@ div#mySwiper {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.container2 {
-  width: 75%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .struct7 {
@@ -789,7 +786,7 @@ input {
 
 .margin1 {
   margin-left: 15px;
-  margin-top:18px;
+  margin-top: 18px;
 }
 
 .modify {
@@ -870,6 +867,40 @@ input {
   100% {
     opacity: 1;
     margin-left: 0;
+  }
+}
+
+.counting::after {
+  content: counter(count);
+  animation: counter 5s linear infinite alternate;
+  counter-reset: count 0;
+  transition-duration: 1s;
+}
+
+@keyframes counter {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 1;
+  }
+  20% {
+    counter-increment: count 2;
+  }
+  30% {
+    counter-increment: count 3;
+  }
+  40% {
+    counter-increment: count 4;
+  }
+  50% {
+    counter-increment: count 5;
+  }
+  60% {
+    counter-increment: count 6;
+  }
+  70% {
+    counter-increment: count 7;
   }
 }
 
@@ -1451,5 +1482,12 @@ input {
 @media (max-width: 519px) {
   .subt-width1 {
     width: 100%;
+  }
+}
+
+@media (max-width: 515px) {
+
+  div#mySwiper1 {
+    padding: 0 0px;
   }
 }

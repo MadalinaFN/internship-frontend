@@ -1,3 +1,83 @@
+<?php
+error_reporting(0);
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+$mail = new PHPMailer(true);
+
+$output = '';
+
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $message = $_POST['message'];
+  $checked = $_POST['newsletter'];
+
+  if ($checked == true) {
+    $newsletter = "Subscribed";
+  } elseif ($checked == false) {
+    $newsletter = "Unsubscribed";
+  }
+
+  $contact = $_POST['contact'];
+
+  if ($contact == "1") {
+    $how = "Phone";
+  } elseif ($contact == "2") {
+    $how = "Email";
+  } elseif ($contact == "3") {
+    $how = "Message";
+  }
+
+  $fileport = $_FILES['attachment']['tmp_name'];
+  $filename = $_FILES['attachment']['name'];
+
+  try {
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'in-v3.mailjet.com';                    //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = '794c43c28af1fe51d3aa4763e1da42ca';     //SMTP username
+    $mail->Password   = 'afc5a339e488960be5b5ed44d2b73053';     //SMTP password
+    $mail->SMTPSecure = 'tls';                                  //Enable implicit TLS encryption
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    $mail->setFrom('larisanegrea5@gmail.com');
+    $mail->addAddress('madalinanegrea40@gmail.com');
+
+    $mail->isHTML(true);
+    $mail->Subject = "Message from Contact Form";
+    $mail->Body    = "Name: $name <br>Email: $email <br>Phone: $phone <br>Message: $message
+    <br>Newsletter: $newsletter <br>Contact by: $how";
+    $mail->addAttachment($fileport, $filename);
+
+    $result = $mail->send();
+    $output = '<div class="alert alert-success text-center">
+    <h5>Thank you for contacting us!</h5>
+    <h5 class="counting"">Please, wait a few seconds...</h5>
+    </div>';
+  } catch (Exception $e) {
+    $output = '<div class="alert alert-danger">
+    <h5>' . $e->getMessage() . '</h5>
+  </div>';
+  }
+
+  if (isset($_POST['submit'])) {
+?>
+    <script type="text/javascript">
+      window.location = "http://internship-frontend/#footer";
+      setTimeout(function() {
+        window.location.href = 'http://internship-frontend';
+      }, 7000);
+    </script>
+<?php
+  }
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -470,6 +550,16 @@
       wordflick();
     });
   </script>
+  <script>
+  $('#form').click(function() {
+    //optionally remove the 500 (which is time in milliseconds) of the
+    //scrolling animation to remove the animation and make it instant
+    $('html, body').animate({
+      scrollTop: $("#footer").offset().top
+    }, 2000);
+    return false;
+  });
+</script>
 </body>
 
 </html>

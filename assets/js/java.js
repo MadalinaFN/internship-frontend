@@ -21,7 +21,7 @@ var swiper1 = new Swiper("#mySwiper1", {
       spaceBetween: 10,
     },
     992: {
-      slidesPerView:2,
+      slidesPerView: 2,
       spaceBetween: 10,
     },
     768: {
@@ -77,3 +77,20 @@ function getDirection() {
 
   return direction;
 }
+
+function fileValidation() {
+  var fileInput =
+      document.getElementById('attachment');
+
+  var filePath = fileInput.value;
+
+  // Allowing file type
+  var allowedExtensions =
+      /(\.doc|\.docx|\.odt|\.pdf|\.tex|\.txt|\.rtf|\.wps|\.wks|\.wpd)$/i;
+
+  if (!allowedExtensions.exec(filePath)) {
+      alert('Invalid file type');
+      fileInput.value = '';
+      return false;
+  }
+};
