@@ -866,7 +866,6 @@ input {
 }
 
 .counting::after {
-  
   content: counter(count);
   animation: counter 5s linear infinite alternate;
   counter-reset: count 0;
