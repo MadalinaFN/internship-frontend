@@ -80,17 +80,17 @@ function getDirection() {
 
 function fileValidation() {
   var fileInput =
-      document.getElementById('attachment');
+    document.getElementById('attachment');
 
   var filePath = fileInput.value;
 
   // Allowing file type
   var allowedExtensions =
-      /(\.doc|\.docx|\.odt|\.pdf|\.tex|\.txt|\.rtf|\.wps|\.wks|\.wpd)$/i;
+    /(\.doc|\.docx|\.odt|\.pdf|\.tex|\.txt|\.rtf|\.wps|\.wks|\.wpd)$/i;
 
   if (!allowedExtensions.exec(filePath)) {
-      alert('Invalid file type');
-      fileInput.value = '';
-      return false;
+    alert('Invalid file type');
+    fileInput.value = '';
+    return false;
   }
 };

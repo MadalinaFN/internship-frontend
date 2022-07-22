@@ -550,16 +550,6 @@ if (isset($_POST['submit'])) {
       wordflick();
     });
   </script>
-  <script>
-  $('#form').click(function() {
-    //optionally remove the 500 (which is time in milliseconds) of the
-    //scrolling animation to remove the animation and make it instant
-    $('html, body').animate({
-      scrollTop: $("#footer").offset().top
-    }, 2000);
-    return false;
-  });
-</script>
 </body>
 
 </html>

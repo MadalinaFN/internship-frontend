@@ -45,7 +45,7 @@
             <i class="fa-solid fa-angle-down"></i>
           </a>
           <ul class="dropdown-menu">
-            <li><a type="button" id="form" class="dropdown-item" href="#footer">Form</a></li>
+            <li><a type="button" class="dropdown-item" href="http://internship-frontend/#footer">Form</a></li>
             <li><a class="dropdown-item" href="#">Link 2</a></li>
             <li><a class="dropdown-item" href="#">Link 3</a></li>
           </ul>

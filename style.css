@@ -502,6 +502,7 @@ div#mySwiper {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 .padding7 {
   padding-left: 3px !important;
   padding-right: 3px !important;
@@ -876,38 +877,48 @@ input {
   0% {
     counter-increment: count 10;
   }
+
   10% {
     counter-increment: count 9;
     animation-duration: 1s;
   }
+
   20% {
     counter-increment: count 8;
     animation-duration: 1s;
   }
+
   30% {
     counter-increment: count 7;
     animation-duration: 1s;
   }
+
   40% {
     counter-increment: count 6;
     animation-duration: 1s;
   }
+
   50% {
     counter-increment: count 5;
     animation-duration: 1s;
   }
+
   60% {
     counter-increment: count 4;
   }
+
   70% {
     counter-increment: count 3;
   }
+
   80% {
     counter-increment: count 2;
   }
+
   90% {
     counter-increment: count 1;
   }
+
   100% {
     counter-increment: count 0;
   }
@@ -930,6 +941,14 @@ input {
 @media (min-width: 1750px) {
   .container {
     max-width: 1500px !important;
+  }
+
+  .padlogo3 {
+    float: none;
+  }
+
+  .padlogo4 {
+    float: none;
   }
 
   .struct1 .font {
