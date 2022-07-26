@@ -59,21 +59,29 @@ if (isset($_POST['submit'])) {
     <h5>Thank you for contacting us!</h5>
     <h5 class="counting"">Please, wait a few seconds... </h5>
     </div>';
+
+    if (isset($_POST['submit'])) {
+?>
+      <script type="text/javascript">
+        window.location = "http://internship-frontend/#footer";
+        setTimeout(function() {
+          window.location.href = 'http://internship-frontend';
+        }, 5100);
+      </script>
+    <?php
+    }
   } catch (Exception $e) {
     $output = '<div class="alert alert-danger">
     <h5>' . $e->getMessage() . '</h5>
   </div>';
-  }
 
-  if (isset($_POST['submit'])) {
-?>
-    <script type="text/javascript">
-      window.location = "http://internship-frontend/#footer";
-      setTimeout(function() {
-        window.location.href = 'http://internship-frontend';
-      }, 5100);
-    </script>
+    if (isset($_POST['submit'])) {
+    ?>
+      <script type="text/javascript">
+        window.location = "http://internship-frontend/#footer";
+      </script>
 <?php
+    }
   }
 }
 ?>

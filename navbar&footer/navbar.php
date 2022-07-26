@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container">
-    <a href="index.php" target="_blank"><img class="img-fluid navimg logo" src="Imagini/Logo.png"></a>
+    <a href="index.php"><img class="img-fluid navimg logo" src="Imagini/Logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

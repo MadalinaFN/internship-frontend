@@ -4,10 +4,14 @@
       <form enctype="multipart/form-data" action="#" method="POST">
         <h1 class="word"></h1>
         <h5><?= $output; ?></h5>
-        <input class="inp" name="name" type="text" placeholder="Your Name" required>
-        <input class="inp" name="email" type="email" placeholder="Your Email" required>
-        <input class="inp" name="phone" type="phone" placeholder="Your Phone" required>
-        <textarea name="message" placeholder="Message" rows="4" required></textarea>
+        <input id="contact-name" class="inp" name="name" type="text" placeholder="Your Name">
+        <span class='error-message' id='name-error'></span>
+        <input id="contact-phone" class="inp" name="phone" type="number" placeholder="Your Phone">
+        <span class='error-message' id='phone-error'></span>
+        <input id="contact-email" class="inp" name="email" type="email" placeholder="Your Email">
+        <span class='error-message' id='email-error'></span>
+        <input id='contact-message' class="inp" name="message" placeholder="Message" rows="4">
+        <span class='error-message' id='message-error'></span>
         <div class="col-auto my-1">
           <div class="custom-control custom-checkbox mr-sm-2 margintop">
             <input name="newsletter" type="checkbox" class="custom-control-input" id="customControlAutosizing">
@@ -30,7 +34,8 @@
             <input name="attachment" type="file" class="form-control-file modify" id="attachment" onchange="fileValidation()">
           </div>
         </div>
-        <button type="submit" name="submit" value="Send" class="btn btn-danger btn-block" id="sendBtn">SEND MESSAGE</button>
+        <button onclick='return validateForm()' type="submit" name="submit" value="Send" class="btn btn-danger btn-block" id="sendBtn">SEND MESSAGE</button>
+        <span class='error-message' id='submit-error'></span>
       </form>
     </div>
     <div class="container">
@@ -54,7 +59,7 @@
     <div class="container pb-5 pb-0">
       <div class="row textalgncenter">
         <div class="col-md margright text-center">
-          <a href="index.php" target="_blank"><img class="padlogo1" src="Imagini/Img1Footer.png" alt="call"></a>
+          <a href="index.php"><img class="padlogo1" src="Imagini/Img1Footer.png" alt="call"></a>
           <p><img class="padlogo2" src="Imagini/Img2Footer.png" alt="call"></p>
           <p>
             <img class="padlogo3" src="Imagini/Img3Footer.png" alt="call">
