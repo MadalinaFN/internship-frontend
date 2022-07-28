@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
     $mail->Host       = 'in-v3.mailjet.com';                    //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = '794c43c28af1fe51d3aa4763e1da42ca';     //SMTP username
-    $mail->Password   = 'afc5a339e488960be5b5ed44d2b73053';     //SMTP password
+    $mail->Password   = '09ddf13de240d61f2cc6a44743d6bedc';     //SMTP password
     $mail->SMTPSecure = 'tls';                                  //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
